@@ -26,13 +26,16 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-        rrcmanagermainwindow.cpp
+        rrcmanagermainwindow.cpp \
+    signinwindow.cpp
 
 HEADERS += \
-        rrcmanagermainwindow.h
+        rrcmanagermainwindow.h \
+    signinwindow.h
 
 FORMS += \
-        rrcmanagermainwindow.ui
+        rrcmanagermainwindow.ui \
+    signinwindow.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
