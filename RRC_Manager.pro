@@ -27,15 +27,45 @@ CONFIG += c++11
 SOURCES += \
         main.cpp \
         rrcmanagermainwindow.cpp \
-    signinwindow.cpp
+    signinwindow.cpp \
+    flashmemorywindow.cpp \
+    rrcmanageraboutwindow.cpp \
+    databasewindow.cpp \
+    testmodulewindow.cpp \
+    moduleflasherwindow.cpp \
+    moduleflasheraswindow.cpp \
+    modulemwwindow.cpp \
+    modulemwaswindow.cpp \
+    modulelidarwindow.cpp \
+    modulelidaraswindow.cpp
 
 HEADERS += \
         rrcmanagermainwindow.h \
-    signinwindow.h
+    signinwindow.h \
+    flashmemorywindow.h \
+    rrcmanageraboutwindow.h \
+    databasewindow.h \
+    testmodulewindow.h \
+    moduleflasherwindow.h \
+    moduleflasheraswindow.h \
+    modulemwwindow.h \
+    modulemwaswindow.h \
+    modulelidarwindow.h \
+    modulelidaraswindow.h
 
 FORMS += \
         rrcmanagermainwindow.ui \
-    signinwindow.ui
+    signinwindow.ui \
+    flashmemorywindow.ui \
+    rrcmanageraboutwindow.ui \
+    databasewindow.ui \
+    testmodulewindow.ui \
+    moduleflasherwindow.ui \
+    moduleflasheraswindow.ui \
+    modulemwwindow.ui \
+    modulemwaswindow.ui \
+    modulelidarwindow.ui \
+    modulelidaraswindow.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
